@@ -7,7 +7,7 @@ A collection of templates for [Foreman](https://github.com/ddollar/foreman)
 ```
 mkdir -p ~/.foreman/templates
 cd ~/.foreman/templates
-git clone git://github.com/dwilkie/foreman-export-templates
+git clone git://github.com/dwilkie/foreman-export-templates .
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ git clone git://github.com/dwilkie/foreman-export-templates
 Example using `rbenv sudo`
 
 ```
-rbenv sudo bundle exec foreman export upstartold /etc/init -u dave -a app-name -e .env.production
+rbenv sudo bundle exec foreman export upstart /etc/init -u user -a app-name -e .env.production -t ~/.foreman/templates/upstartold
 ```
 
 ## Contributing
