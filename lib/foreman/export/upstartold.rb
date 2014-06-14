@@ -1,4 +1,3 @@
-require "upstartold/version"
 require "erb"
 require "foreman/export"
 
