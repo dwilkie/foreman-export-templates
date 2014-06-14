@@ -1,7 +1,9 @@
+require "upstartold/version"
 require "erb"
 require "foreman/export"
 
 class Foreman::Export::Upstartold < Foreman::Export::Base
+  VERSION = "0.0.1"
 
   def export
     super
