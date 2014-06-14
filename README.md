@@ -1,24 +1,22 @@
-# Foreman::Export::Upstartold
+# Foreman-Export-Templates
 
-TODO: Write a gem description
+A collection of templates for [Foreman](https://github.com/ddollar/foreman)
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'foreman-export-upstartold'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install foreman-export-upstartold
+```
+mkdir -p ~/.foreman/templates
+cd ~/.foreman/templates
+git clone git://github.com/dwilkie/foreman-export-templates
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+Example using `rbenv sudo`
+
+```
+rbenv sudo bundle exec foreman export upstartold /etc/init -u dave -a app-name -e .env.production
+```
 
 ## Contributing
 
