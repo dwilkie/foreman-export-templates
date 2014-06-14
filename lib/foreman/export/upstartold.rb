@@ -1,4 +1,4 @@
-require "erb"
+require "foreman"
 require "foreman/export"
 
 class Foreman::Export::Upstartold < Foreman::Export::Base

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Foreman::Export::Upstartold::VERSION
   spec.authors       = ["David Wilkie"]
   spec.email         = ["dwilkie@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A Foreman export for upstart < 1.4 where setuid is not supported}
+  spec.summary       = %q{A Foreman export for upstart < 1.4 where setuid is not supported}
   spec.homepage      = ""
   spec.license       = "MIT"
 
